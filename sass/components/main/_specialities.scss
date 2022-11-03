@@ -1,0 +1,53 @@
+.specialities {
+    margin-bottom: 0;
+    
+    &__benefit-list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 30px;
+        list-style: none;
+
+    }
+
+    &__benefit-item {
+        flex-basis: calc((100% - 90px) / 4);
+    }
+
+    &__benefit-thumb {
+        display: flex;    
+        width: 270px;
+        height: 120px;
+        background-color: $anotherBgdColor;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin-bottom: 30px;
+        border-radius: 4px;
+    }
+
+    &__benefit-icon {
+        width: 70px;
+        height: 70px;      
+        
+    }
+
+    &__subtitle {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 14px;    
+        line-height: 1.14;
+        text-transform: uppercase;
+    
+     }
+
+
+    &__benefit-text {
+        margin: 0;   
+        line-height: 1.71; 
+        color: $anotherTextColor;
+        }
+}
+
+
+

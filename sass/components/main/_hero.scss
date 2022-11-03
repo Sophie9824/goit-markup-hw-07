@@ -1,0 +1,80 @@
+
+
+ .hero {
+    max-width: 1600px;     
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2F303A;
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),
+    url(../images/work-group.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    & .container {
+        display: block;    
+        
+        }  
+
+        &__decisions {
+            width: 696px;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            text-align: center;
+            letter-spacing: 0.06em;    
+            color: $background;
+            margin-top: 0;
+            margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            text-transform: uppercase;
+            
+            
+            
+        }
+        
+        
+ }
+
+ .hero__button {
+    min-width: 216px;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: inherit;
+    background-color: $brandColor;
+    color: $background;
+    border: 0;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $buttonActive;
+    }
+}
+
+
+
+
+
+ 
+ 
+
+
+
+ 
